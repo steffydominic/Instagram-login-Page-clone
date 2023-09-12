@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Insta login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+      <div class="sec1">
+            <img src="instalogo.png">
+          <form>
+            <input type="text" id="username"placeholder="Phone number, username or email address" v"><br>
+            <input type="password" id="pass" placeholder="Password" ><br>
+            <button type="button" id="login" onclick="get()">Log in </button>
+          </form>
+          <div id="or"><span class="check" >OR</span>
+          </div>
+            <div class="text">
+              <p id="facebook"> Log in with facebook</p>
+              <p id="forgot">Forgotten your password?</p>
+            </div>
+      </div>
+    </section>
+
+    <section class="sec2">
+        <p id="sign"> Don't have an account?<span id="signup">Sign up</span></p>
+    </section>
+
+    <section class="sec3">
+        <p>Get the app</p>
+        <div class="app">
+            <img src="gplay.png">
+            <img src="microsoft.png">
+        </div>
+    </section>
+    <script>
+      function get() {
+        const username = document.getElementById("username").value
+      const pass = document.getElementById("pass").value
+      console.log(username, pass);
+      localStorage.setItem("user_name", username)
+      localStorage.setItem("password", pass)
+      window.location.href = "portfolio/index.html"
+
+      }
+      
+    </script>
+</body>
+</html>

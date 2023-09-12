@@ -1,0 +1,188 @@
+body{
+	background-color: #F7F6F6;
+	  font-family: "Akaya Telivigala";
+}
+h3{
+	font-family: cursive;
+}
+h2{
+	
+}
+.head{
+	text-align:center;
+	font-family: cursive;
+	font-size:40px;
+	color:#87CEEB;
+	text-shadow:  3px 3px 5px black;
+}
+.head:hover{
+	font-size:42px;
+	text-shadow: 3px 3px 5px black;
+}
+.toppara img{
+	width:350px;
+	border-radius: 30px;
+	float:right;
+
+}
+.toppara {
+	margin-top:30px;
+	background-color:#FDDA0D;
+	padding: 90px 200px 110px 100px;
+	font-size:27px;
+	font-family:Copperplate,Papyrus,fantasy;
+	text-shadow: -1px 1px 1px black;
+}
+
+.edu{
+	background-image:url();
+}
+.edu img {
+	float:left;
+	width:240px;
+	height:240px;
+	
+}
+.edu ul{
+	padding-left:260px;
+	padding-top:80px;
+	padding-bottom:60px;
+	font-size:23px;
+}
+.edu h2{
+	margin-top:60px;
+	font-size: 30px;
+	color:#3333FF;
+	text-shadow: 2px 2px 6px #808080;
+}
+.para h3{
+	font-size:30px;
+}
+.likesh2{
+	color:#3333FF;
+	font-size: 30px;
+	text-shadow: 2px 2px 6px #808080;
+}
+.para{
+	margin-left:20px;
+	text-align:center;
+}
+
+.cric{
+	text-align:center;
+	border: 1px black solid;
+	width: 300px;
+	height: 370px;
+	border-radius: 30px;
+	margin:50px ;
+	background-image:url(bg1.jpg);
+	background-size:300px 370px;
+}
+.cric:hover{
+	width: 320px;
+	height: 390px;
+	background-size:320px 390px;
+	box-shadow:3px 3px 5px black;
+}
+.cric img{
+	width: 150px;
+	height:150px;
+	margin:15px;
+	border-radius:20px;
+}
+.music{
+	text-align:center;
+	border: 1px black solid;
+	width: 300px;
+	height: 370px;
+	border-radius: 30px;
+	margin:50px;
+	background-image:url(bg1.jpg);
+	background-size:300px 370px;
+}
+.music:hover{
+	width: 320px;
+	height: 390px;
+	background-size:320px 390px;
+	box-shadow:3px 3px 5px black;
+}
+.music img{
+	width: 180px;
+	height:140px;	
+	margin:15px;
+	border-radius:20px;
+
+}
+.cinema{
+    text-align:center;
+	border: 1px black solid;
+	width: 300px;
+	height: 370px;
+	border-radius: 30px;
+	margin:50px;
+	background-image:url(bg1.jpg);
+	background-size:300px 370px;
+}
+.cinema:hover{
+	width: 320px;
+	height: 390px;
+	background-size:320px 390px;
+	box-shadow:3px 3px 5px black;
+}
+.cinema img{
+	width: 180px;
+	height:140px;
+	margin:15px;	
+	border-radius:20px;
+
+}
+.creativity{
+	text-align:center;
+	border: 1px black solid;
+	width: 300px;
+	height: 370px;
+	border-radius: 30px;
+	margin:50px;
+	background-image:url(bg1.jpg);
+	background-size:300px 370px;
+}
+.creativity:hover{
+	width: 320px;
+	height: 390px;
+	background-size:320px 390px;
+	box-shadow:3px 3px 5px black;
+}
+.creativity img{
+	width: 140px;
+	height:180px;
+    margin:15px;	
+	border-radius:20px;
+
+}
+.likes{
+	display: flex;
+}
+
+.abtme{
+	margin-left:30px;
+}
+.foot ul{
+	justify-content: left;
+	display:flex;
+	list-style:none;
+	margin-left:10%;
+}
+.foot li{
+	margin-left:30px;
+	padding: 20px;
+}
+.foot img{
+	width:50px;
+}
+.foot{
+	background-color: grey;
+	height:80px;
+	
+}
+
+
